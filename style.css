@@ -46,6 +46,11 @@ body {
   border-radius: 50px;
 }
 
+#buttons button:hover {
+  background-color: aliceblue;
+  opacity: 90%;
+}
+
 #buttons button#pause {
   color: #4da6ff;
 }
@@ -55,12 +60,10 @@ body {
 }
 
 #timer_task {
-  margin-top: 20pt !important;
   margin: auto;
 }
 
 #timer_new {
-  margin-top: 10pt !important;
   margin: auto;
 }
 
@@ -174,6 +177,12 @@ table tr {
   margin-bottom: 10px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+}
+
+#task-list li {
+  border: 2px solid white;
+  padding: 5px;
+  color: white;
 }
 
 @media (max-width: 576px) {
